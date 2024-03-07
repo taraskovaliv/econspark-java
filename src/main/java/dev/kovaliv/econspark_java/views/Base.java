@@ -17,8 +17,8 @@ public class Base {
         return head(
                 meta().withCharset("UTF-8"),
                 meta().withName("viewport").withContent("width=device-width, initial-scale=1.0"),
-                link().withRel("stylesheet").withHref("/static/spectre.css"),
-                script().withSrc("/static/twinspark.js"),
+                link().withRel("stylesheet").withHref("spectre.css"),
+                script().withSrc("twinspark.js"),
                 style().withText(".fade {opacity: 0; transition: opacity 0.5s ease-in-out; }"),
                 title(title)
         );
