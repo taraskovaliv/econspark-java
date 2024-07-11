@@ -13,7 +13,7 @@
         <j2html.version>1.6.0</j2html.version>
         <javalin.version>6.1.2</javalin.version>
         <slf4j-simple.version>2.0.10</slf4j-simple.version>
-        <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
     </properties>
 
     <dependencies>
